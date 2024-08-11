@@ -10,11 +10,11 @@ export default function Product() {
     <div className="h-full">
       <div className="h-fit">
         <div className="h-fit text-[#FCF6EE]">
-          <p className="font-black text-7xl md:text-12xl lg:text-xxl">
+          <p className="font-black text-7xl md:text-9xl lg:text-12xl">
             PRODUCT
           </p>
         </div>
-        <div className="h-60 md:h-[28rem] lg:h-[32rem] flex mb-10 overflow-x-auto snap-x">
+        <div className="h-60 md:h-[24rem] lg:h-[32rem] flex mb-10 overflow-x-auto snap-x">
           <div className="flex h-full">
             <PerProduct drink={red} text={"POWER FULL RED"} />
             <PerProduct drink={green} text={"POWER FULL GREEN"} />

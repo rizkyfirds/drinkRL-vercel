@@ -4,7 +4,7 @@ import TextHover from "./TextHover";
 
 export default function Footer() {
   return (
-    <div className="h-full flex justify-between lg:mx-10 gap-x-10">
+    <div className="h-full flex justify-between mb-4 lg:mx-10 gap-x-10">
       <div className="w-1/6">
         <img src={Logo} alt="" />
       </div>
